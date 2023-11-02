@@ -31,7 +31,7 @@ authController.post('/login', async(req, res) => {
           throw new Error("User credentials are wrong!")
        }
 
-       // 123456, [lkoiuytfdrse5rd6tfgyhijopk[l;]'\[pkojiugyftdrzsdxtfycghu]]
+      
        const comparePass = await bcrypt.compare(req.body.password, user.password)
        if(!comparePass){
         throw new Error("User credentials are wrong!")

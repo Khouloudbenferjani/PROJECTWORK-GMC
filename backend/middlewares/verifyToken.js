@@ -16,7 +16,7 @@ const verifyToken = (req, res, next) => {
     }
 }
 
-// verifyTokenAdmin
+// Command to verifyTokenAdmin
 const verifyTokenAdmin = (req, res, next) => {
     if(!req.headers.authorization) return res.status(403).json({msg: "Not authorized. No token"})
 

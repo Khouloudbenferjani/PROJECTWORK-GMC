@@ -1,3 +1,7 @@
+// how to install informations for product related to mongodb
+// product schema 
+
+
 const mongoose = require("mongoose")
 
 const ProductSchema = new mongoose.Schema({

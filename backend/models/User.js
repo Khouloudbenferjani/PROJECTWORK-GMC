@@ -1,3 +1,8 @@
+// how to install informations for users related to mongodb
+// user schema
+
+
+
 const mongoose = require('mongoose')
 
 const UserSchema = new mongoose.Schema({
