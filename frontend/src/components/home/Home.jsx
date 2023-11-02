@@ -1,9 +1,9 @@
 import React from 'react'
 import Hero from '../hero/Hero'
 import classes from './home.module.css'
-import illustration1 from '../../assets/male-delivery-guy-riding-scooter.svg'
-import illustration2 from '../../assets/delivery-location.svg'
-import illustration3 from '../../assets/deliveryman-with-pizza.svg'
+import illustration1 from '../../assets/male-delivery-guy-riding-scooter.webp'
+import illustration2 from '../../assets/delivery-location.jpg'
+import illustration3 from '../../assets/deliveryman-with-pizza.jpg'
 import Foods from '../foods/Foods'
 import Newsletter from '../newsletter/Newsletter'
 

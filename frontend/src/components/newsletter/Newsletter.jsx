@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './newsletter.module.css'
 import {AiOutlineSend} from 'react-icons/ai'
-import newsletterIllustration from '../../assets/get-newsletter-updates.svg'
+import newsletterIllustration from '../../assets/get-newsletter-updates.webp'
 
 const Newsletter = () => {
   return (
